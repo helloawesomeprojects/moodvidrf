@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'videos.apps.VideosConfig',
+    'corsheaders',
     'rest_framework',
     'djoser',
     'rest_framework.authtoken',
